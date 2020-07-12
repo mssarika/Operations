@@ -8,11 +8,35 @@ import OperationClass.MathsOperations;
 
 public class MathsOperationsTest {	
 	
+	MathsOperations math=new MathsOperations();
+	
 	@Test
 	public void testAdd()
 	{
-		MathsOperations math=new MathsOperations();
 		Assert.assertEquals("Test failed",3,math.add(1,2));
-		Assert.assertEquals("Test failed",5,math.add(3,2));
+	}
+	
+	@Test
+	public void testAdd1()
+	{
+		Assert.assertEquals("Test failed",-1,math.add(1,-2));
+	}
+	
+	@Test
+	public void testAdd2()
+	{
+		Assert.assertEquals("Test failed",1,math.add(-1,2));
+	}
+	
+	@Test
+	public void testAdd3()
+	{
+		Assert.assertEquals("Test failed",-3,math.add(-1,-2));
+	}
+	
+	@Test
+	public void testAdd4()
+	{
+		Assert.assertEquals("Test failed",0,math.add(0,0));
 	}
 }
