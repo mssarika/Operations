@@ -13,8 +13,8 @@
     <repository>
       <uniqueVersion>false</uniqueVersion>
       <id>mssarika</id>
-      <name>test Repository</name>
-      <url>https://github.com/mssarika/testRepository.git</url>
+      <name>Operations</name>
+      <url>https://github.com/mssarika/Operations.git</url>
       <layout>default</layout>
     </repository>
     
