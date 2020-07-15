@@ -39,4 +39,10 @@ public class MathsOperationsTest {
 	{
 		Assert.assertEquals("Test failed",0,math.add(0,0));
 	}
+	
+	@Test
+	public void testAdd5()
+	{
+		Assert.assertEquals("Test failed",110,math.add(110,0));
+	}
 }
