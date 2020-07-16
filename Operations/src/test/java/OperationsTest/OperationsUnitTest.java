@@ -5,10 +5,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import OperationClass.MathsOperations;
+import OperationClass.Operations;
 
-public class MathsOperationsTest {	
+public class OperationsUnitTest {	
 	
-	MathsOperations math=new MathsOperations();
+	Operations math=new Operations();
 	
 	@Test
 	public void testAdd()
@@ -37,12 +38,12 @@ public class MathsOperationsTest {
 	@Test
 	public void testAdd4()
 	{
-		Assert.assertEquals("Test failed",0,math.add(0,0));
+		Assert.assertEquals("Test failed","abc",math.add("ab","c"));
 	}
 	
 	@Test
 	public void testAdd5()
 	{
-		Assert.assertEquals("Test failed",110,math.add(110,0));
+		Assert.assertEquals("Test failed","abcdef",math.add("abc","def"));
 	}
 }
