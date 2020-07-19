@@ -27,6 +27,14 @@
 </plugins>
 </build>
 
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>Operations</name>
+     <url>https://github.com/mssarika/Operations</url>
+   </repository>
+</distributionManagement>
+
 <dependencies>
 <dependency>
 <groupId>junit</groupId>

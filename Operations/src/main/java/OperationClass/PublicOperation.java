@@ -2,7 +2,7 @@ package OperationClass;
 
 public class PublicOperation extends Operations{
 	
-	public String add(String input1, String input2)
+	public String addValues(String input1, String input2)
 	{
 	try {
 		int first=Integer.parseInt(input1);

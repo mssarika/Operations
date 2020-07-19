@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import OperationClass.MathsOperations;
 import OperationClass.Operations;
+import OperationClass.PublicOperation;
 
 public class OperationsUnitTest {	
 	
