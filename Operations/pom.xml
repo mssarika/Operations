@@ -31,7 +31,7 @@
    <repository>
      <id>github</id>
      <name>GitHub mssarika Maven Packages</name>
-     <url>https://github.com/mssarika</url>
+     <url>https://maven.pkg.github.com/mssarika/Operations</url>
    </repository>
 </distributionManagement>
 
