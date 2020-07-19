@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Operations</groupId>
   <artifactId>Operations</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>Maths and Strings</name>  
  
  <properties>
@@ -30,8 +30,8 @@
 <distributionManagement>
    <repository>
      <id>github</id>
-     <name>Operations</name>
-     <url>https://github.com/mssarika/Operations</url>
+     <name>GitHub mssarika Maven Packages</name>
+     <url>https://github.com/mssarika</url>
    </repository>
 </distributionManagement>
 
