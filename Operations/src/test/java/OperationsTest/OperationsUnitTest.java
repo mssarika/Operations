@@ -35,7 +35,7 @@ public class OperationsUnitTest {
 	{
 		Assert.assertEquals("Test failed",-3,math.add(-1,-2));
 	}
-	/*
+	
 	@Test
 	public void testAdd4()
 	{
@@ -46,5 +46,5 @@ public class OperationsUnitTest {
 	public void testAdd5()
 	{
 		Assert.assertEquals("Test failed","abcdef",math.add("abc","def"));
-	}*/
+	}
 }
