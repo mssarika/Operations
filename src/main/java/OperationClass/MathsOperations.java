@@ -15,8 +15,8 @@ public class MathsOperations {
 		int num1=getinput.nextInt();
 		System.out.print("Enter second nunber to add : ");
 		int num2=getinput.nextInt();
-		MathsOperations math=new MathsOperations();
-	//	System.out.println("Result : "+math.add(num1,num2));
+		Operations math=new Operations();
+		System.out.println("Result : "+math.add(num1,num2));
 	}
 	
 	
